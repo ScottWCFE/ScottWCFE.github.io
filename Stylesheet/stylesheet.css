@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    list-style: none;
+    background: #fff933;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: #fff933;
+}
+ul li a:hover ul.dropdown{
+    display: block;
+}
