@@ -3,6 +3,11 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+.navBar ul{
+    background-color: black;
+    padding: 20px 20px;
+    border: none;
+}
 .dropdown{
     display: inline-block;
 }
