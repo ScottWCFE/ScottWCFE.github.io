@@ -3,35 +3,35 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
-ul{
-    list-style: none;
-    background: #fff933;
-}
-ul li{
+.dropdown{
     display: inline-block;
-    position: relative;
 }
-ul li a{
+.dropdown button{
+    background-color:black;
+    color: yellow;
+    padding: 10px 15px;
+    border: none;
+    cursor:pointer;
+}
+.dropdown a{
     display: block;
-    padding: 20px 25px;
-    color: black;
+    color:yellow;
     text-decoration: none;
-    text-align: center;
-    font-size: 20px;
+    padding: 10px 15px;
 }
-ul li ul.dropdown li{
-    display: block;
-}
-ul li ul.dropdown{
-    width: 100%;
-    background: black;
-    position: absolute;
-    z-index: 999;
+.dropdown .content{
     display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsl(0%, 0%, 0%);
 }
-ul li a:hover{
-    background: #fff933;
-}
-ul li a:hover ul.dropdown{
+.dropdown:hover .content{
     display: block;
+}
+.dropdown:hover button{
+    background-color: hsl(0%, 0%, 0%);
+}
+.dropdown a:hover{
+    background-color: hsl(0%, 0%, 0%);
 }
