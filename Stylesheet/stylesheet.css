@@ -7,6 +7,11 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+}
 video{
     display: block;
     margin: auto;
