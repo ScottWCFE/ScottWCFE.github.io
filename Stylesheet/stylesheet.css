@@ -20,11 +20,25 @@ h2{
 video{
     display: block;
     margin: auto;
+    margin-bottom: 20px;
+}
+.square{
+    display: block;
+    margin: auto;
+    background-color: yellow;
+}
+.centre_home{
+    background-color: black;
+    display: block;
+    margin: auto;
 }
 .centre_weapon{
+    background-color: black;
     display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 375px;
-    margin-right: auto;
+    margin-right: 0%;
 }
 .resize_small{
     width: 200px;
