@@ -12,9 +12,23 @@ h1{
     margin: auto;
     text-align: center;
 }
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+}
 video{
     display: block;
     margin: auto;
+}
+.centre_weapon{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: auto;
+}
+.resize_small{
+    width: 200px;
+    height: 200px;
 }
 a:visited{
     color: brown;
