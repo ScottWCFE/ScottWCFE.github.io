@@ -14,18 +14,18 @@ h1{
 }
 h2{
     font-family: 'Times New Roman', Times, serif;
-    margin: auto;
+    margin: 20px;
+    text-align: center;
+}
+h3{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    margin: 20px;
     text-align: center;
 }
 video{
     display: block;
     margin: auto;
     margin-bottom: 20px;
-}
-.square{
-    display: block;
-    margin: auto;
-    background-color: yellow;
 }
 .centre_home{
     background-color: black;
@@ -37,7 +37,15 @@ video{
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 375px;
+    margin-left: 600px;
+    margin-right: 0%;
+}
+.centre_history{
+    background-color: black;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 900px;
     margin-right: 0%;
 }
 .resize_small{
