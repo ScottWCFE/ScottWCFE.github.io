@@ -7,6 +7,10 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+.align_logo{
+    height: 50px; 
+    width: 200px;
+}
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
@@ -22,10 +26,19 @@ h3{
     margin: 20px;
     text-align: center;
 }
+h6{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
 video{
     display: block;
     margin: auto;
     margin-bottom: 20px;
+}
+.centre{
+    display: block;
+    margin: auto
 }
 .centre_home{
     background-color: black;
@@ -47,6 +60,11 @@ video{
     margin-bottom: 20px;
     margin-left: 900px;
     margin-right: 0%;
+}
+.centre_character{
+    background-color: black;
+    display: inline-block;
+    margin-left: 1015px;
 }
 .resize_small{
     width: 200px;
